@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.10"
+    kotlin("jvm") version "1.8.0"
 }
 
 group = "com.tyluur"
@@ -10,7 +10,6 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
     mavenLocal()
-    jcenter()
     maven(url = "https://repo.maven.apache.org/maven2")
     maven(url = "https://dl.bintray.com/michaelbull/maven")
 }
@@ -18,7 +17,7 @@ repositories {
 dependencies {
     //Logging
     implementation("org.slf4j:slf4j-api:1.7.30")
-    implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation("ch.qos.logback:logback-classic:1.2.9")
     implementation(
         group = "com.michael-bull.kotlin-inline-logger",
         name = "kotlin-inline-logger-jvm",
