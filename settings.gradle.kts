@@ -1,1 +1,1 @@
-rootProject.name = "tPacker"
+rootProject.name = "bridge-compressor"
