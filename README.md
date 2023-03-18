@@ -1,3 +1,3 @@
-# kt-packer
+# bridge-compressor
 
-Manage file [de]compression with this simple application for your desktop PC.
+This program handles file compression/decompression at fast speeds for any operating system.
