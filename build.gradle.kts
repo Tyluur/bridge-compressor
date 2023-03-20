@@ -1,6 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
+    application
     kotlin("jvm") version "1.8.0"
 }
 
@@ -16,7 +17,7 @@ repositories {
 
 dependencies {
     //Logging
-    implementation("org.slf4j:slf4j-api:1.7.30")
+    implementation("org.slf4j:slf4j-api:2.0.5")
     implementation("ch.qos.logback:logback-classic:1.2.9")
     implementation(
         group = "com.michael-bull.kotlin-inline-logger",
