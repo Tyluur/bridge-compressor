@@ -4,6 +4,8 @@
 
 This program handles file compression/decompression at fast speeds for any operating system.
 
+To launch this program, simply use the gradle run task under `application`.
+
 [isc]: https://opensource.org/license/lgpl-3-0/
 [license]: https://github.com/bridge-io/bridge-compressor/blob/main/LICENSE
 [license-badge]: https://img.shields.io/badge/license-GNU-informational
