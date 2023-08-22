@@ -5,11 +5,11 @@ plugins {
 	kotlin("jvm") version "1.8.0"
 }
 
-group = "ca.bridge-io"
+group = "ca.bridge_io"
 version = "1.0-SNAPSHOT"
 
 application {
-	mainClass.set("ca.bridge-io.BootstrapKt") // Replace with the fully qualified name of your main class
+	mainClass.set("ca.bridge_io.BootstrapKt") // Replace with the fully qualified name of your main class
 }
 
 repositories {
@@ -26,11 +26,12 @@ dependencies {
 	implementation("com.michael-bull.kotlin-inline-logger:kotlin-inline-logger:1.0.5")
 	runtimeOnly("com.michael-bull.kotlin-inline-logger:kotlin-inline-logger-jvm:1.0.5")
 	testImplementation(kotlin("test"))
+	testImplementation("org.mockito.kotlin:mockito-kotlin:3.2.0")
 }
 
 tasks.jar {
 	manifest {
-		attributes["Main-Class"] = "ca.bridge-io.BootstrapKt"
+		attributes["Main-Class"] = "ca.bridge_io.BootstrapKt"
 	}
 	from(sourceSets.main.get().output)
 }
