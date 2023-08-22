@@ -1,5 +1,7 @@
+package ca.`bridge-io`
+
 import com.github.michaelbull.logging.InlineLogger
-import com.tyluur.ui.FileSelector
+import ca.`bridge-io`.ui.FileSelector
 
 class Bootstrap {
 
