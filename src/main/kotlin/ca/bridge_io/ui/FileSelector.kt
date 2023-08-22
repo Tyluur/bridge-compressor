@@ -1,4 +1,4 @@
-package ca.`bridge-io`.ui
+package ca.bridge_io.ui
 
 import com.github.michaelbull.logging.InlineLogger
 import kotlinx.coroutines.Dispatchers

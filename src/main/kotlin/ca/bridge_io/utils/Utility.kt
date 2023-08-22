@@ -1,4 +1,4 @@
-package ca.`bridge-io`.utils
+package ca.bridge_io.utils
 
 import net.lingala.zip4j.io.inputstream.ZipInputStream
 import net.lingala.zip4j.model.LocalFileHeader

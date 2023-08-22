@@ -1,7 +1,7 @@
-package ca.`bridge-io`
+package ca.bridge_io
 
 import com.github.michaelbull.logging.InlineLogger
-import ca.`bridge-io`.ui.FileSelector
+import ca.bridge_io.ui.FileSelector
 
 /**
  * The [Bootstrap] class is responsible for initializing and executing the application's core functionality.
