@@ -13,7 +13,8 @@ import org.mockito.kotlin.verify
  * Specifically, it tests the interaction between the [Bootstrap] class and the [FileSelector] class,
  * using Mockito to verify the expected behavior.
  *
- * @author Tyluur
+ * @author Your Name
+ * @since Version X.Y.Z
  */
 class BootstrapTest {
 
